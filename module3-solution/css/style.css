@@ -22,7 +22,7 @@
 #header-nav .container .navbar-header .navbar-toggler{
     float: right;
 }
-.navbar-brand h1 { /* Brand name */
+#header-nav .navbar-brand h1 { /* Brand name */
     color: white;
     font-size: 1.5em;
     font-weight: bold;
@@ -30,7 +30,7 @@
     margin: 0;
     line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+#header-nav .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
 #collapsable-nav {
@@ -53,12 +53,12 @@
 #main-content .row {
     margin: auto;
 }
-.menu-item {
+#main-content .menu-tile .menu-item {
     padding: 0;
     margin-bottom: 40px;
     background-color: #a9a9a9;
 }
-.item-title {
+#main-content .item-title {
     font-size: 1.25em;
     font-weight: bold;
     padding: 8px 30px;
@@ -73,7 +73,7 @@
 #title-3 {
     background-color: peru;
 }
-.menu-item .item-description {
+#main-content .menu-item .item-description {
     height: 900px;
     overflow: auto;
     padding: 0px 20px 10px 20px;
