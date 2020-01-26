@@ -1,0 +1,126 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/********** Header **********/
+#header-nav {
+    padding: 0;
+}
+#header-nav .container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+#header-nav .container .navbar-header {
+    width: 100%;
+    margin: 0px 40px;
+    padding: 15px 0px;
+}
+#header-nav .container .navbar-header .navbar-toggler{
+    float: right;
+}
+#header-nav .navbar-brand h1 { /* Brand name */
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin: 0;
+    line-height: .75;
+}
+#header-nav .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#collapsable-nav {
+    background: #737373;
+}
+#collapsable-nav .navbar-nav {
+    text-align: center;
+}
+#collapsable-nav .navbar-nav .nav-item {
+    border-bottom: 1px solid #343a40;
+}
+#collapsable-nav .navbar-nav .nav-item:hover {
+    background-color: #5b5e61;
+}
+
+/********** Main Content **********/
+#main-content #page-title {
+    margin: 30px 0px 30px 0px;
+}
+#main-content .row {
+    margin: auto;
+}
+#main-content .menu-tile .menu-item {
+    padding: 0;
+    margin-bottom: 40px;
+    background-color: #a9a9a9;
+}
+#main-content .item-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 8px 30px;
+    margin-bottom: 10px;
+}
+#title-1 {
+    background-color: lightseagreen;
+}
+#title-2 {
+    background-color: indianred;
+}
+#title-3 {
+    background-color: peru;
+}
+#main-content .menu-item .item-description {
+    height: 900px;
+    overflow: auto;
+    padding: 0px 20px 10px 20px;
+}
+
+/* Media query ranges were found on: https://getbootstrap.com/docs/4.4/layout/overview/
+
+/********** Extra large devices (large desktops, 1200px and up) **********/
+@media (min-width: 1200px) { 
+    .visible-sm {
+        display: none;
+    }
+}
+
+/********** Large devices (desktops, 992px and up) **********/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .visible-sm {
+        display: none;
+    }
+}
+
+/********** Medium devices (tablets, 768px and up) **********/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .visible-sm {
+        display: none;
+    }
+    #main-content .menu-item .item-description {
+        height: 400px;
+    }
+}
+
+/********** Small devices (landscape phones, 576px and up) **********/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .visible-sm {
+        display: block;
+    }
+    #main-content .menu-item .item-description {
+        height: 400px;
+    }
+}
+
+/********** Extra small devices (portrait phones, less than 576px) **********/
+@media (max-width: 575.98px) {
+    .visible-sm {
+        display: block;
+    }
+    #main-content .menu-item .item-description {
+        height: 400px;
+    }
+}
