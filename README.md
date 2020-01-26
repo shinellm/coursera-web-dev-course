@@ -10,4 +10,3 @@ Throughout this course I've completed several assignments, which can be found be
 - [Module 3 Instructions](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md) / [Module 3 Solution](https://shinellm.github.io/coursera-web-dev-course/module3-solution/)
 - [Module 4 Instructions](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md) / [Module 4 Solution](https://shinellm.github.io/coursera-web-dev-course/module4-solution/)
 - [Module 5 Instructions](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md) / [Module 5 Solution](https://shinellm.github.io/coursera-web-dev-course/module5-solution/)
-
