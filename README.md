@@ -1,3 +1,5 @@
+# Click the following link to see the deployed projects: https://shinellm.github.io/coursera-web-dev-course/
+
 ## Welcome to Coursera's HTML, CSS, and Javascript for Web Developers Course
 
 This page is meant to keep track of my individual assignments as I progress through the course: [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
